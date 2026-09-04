@@ -1,24 +1,26 @@
-## Hello there, my name is Uduak  👋🏾
+# Uduak Ukpong
 
-### I'm a Front-End Developer (for now 🤓)
+Full-Stack Developer working across React, Next.js, NestJS, and PostgreSQL. I build production-ready web applications end to end, from schema and API design through to shipped, tested UI.
 
-* 🔭 I’m currently working on a fitness app for mobile but you can check out my trivia web app on https://quiz-treevia.netlify.app.
-* 🌱 I have my React Js & Native fundamentals down and I'm working to strengthen them further.
-* 👯 I am looking to collaborate with other developers and/or contribute to interesting projects.
-* 💬 I’m on the job hunt for a frontend dev position.
-* 📫 How to reach me → LinkedIn: https://www.linkedin.com/in/ukpong-uduak
-* ⚡ Fun fact: I love watching anime & Basketball.
+## Atlas
+[Live](https://atlas-murex-nine.vercel.app) · [Repo](https://github.com/Fahleh/Atlas)
 
+A project management dashboard built solo on Next.js 16 and Supabase (Postgres, Auth, Storage), using a propose-then-review workflow: every change, including AI-assisted implementation, is proposed, reviewed, and verified before it lands.
 
-****
+- A self-initiated security audit found a real cross-project data leak: a Postgres view was bypassing row-level security because of a `security_invoker` gap that passed every automated linter and only surfaced under a deliberate two-user adversarial test.
+- CI gates every PR to `main` and `develop` on the full test suite (361/361 passing), device-split Lighthouse performance budgets, and a live authenticated CSP check.
+- Six tagged releases (v1.0.0 through v1.3.0), with every non-obvious decision documented in `docs/decisions.md`.
 
-## Language and Tools
+## Stack
 
-<img src="https://user-images.githubusercontent.com/49387957/235293338-6b95ea1e-79d6-4284-b3c2-17d43331907d.png" width="35">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/49387957/235292421-e3c90de3-a087-46a9-a4c7-92a4be5e17ab.png" width="30">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/49387957/235291676-d87f4c9c-e7dc-47fa-ae51-655e20f7ca10.png" width="45">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/49387957/235291918-17c45a6b-8d7d-424d-bacf-f86a4d4f8c40.png" width="35">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/49387957/235292008-07f4e831-1d61-495e-8fd8-3047e4c195a5.png" width="40">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/49387957/235293469-74bb1515-127f-4bb8-bd74-e88d8b95e709.png" width="35">
+**Frontend:** React, Next.js, TypeScript, Redux Toolkit, TanStack Query, Tailwind CSS
+**Backend / Data:** NestJS, PostgreSQL, Supabase, Redis
+**Tooling:** Docker, Jest, Playwright, GitHub Actions
 
+## Currently building
 
+A small set of backend-focused modules (auth, checkout and payments) built from scratch to the same standard as Atlas, covering the transaction-safety and security work that NDA'd client projects don't let me show directly.
+
+## Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/ukpong-uduak/) · [Portfolio](https://uduakukpong.netlify.app/)
