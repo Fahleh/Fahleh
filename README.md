@@ -9,7 +9,7 @@ A project management dashboard built solo on Next.js 16 and Supabase (Postgres, 
 
 - A self-initiated security audit found a real cross-project data leak: a Postgres view was bypassing row-level security because of a `security_invoker` gap that passed every automated linter and only surfaced under a deliberate two-user adversarial test.
 - CI gates every PR to `main` and `develop` on the full test suite (361/361 passing), device-split Lighthouse performance budgets, and a live authenticated CSP check.
-- Six tagged releases (v1.0.0 through v1.3.0), with every non-obvious decision documented in `docs/decisions.md`.
+- Nine tagged releases (v1.0.0 through v1.3.0), with every non-obvious decision documented in `docs/decisions.md`.
 
 ## Stack
 
