@@ -23,4 +23,4 @@ A small set of backend-focused modules (auth, checkout and payments) built from 
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/ukpong-uduak/) · [Portfolio](https://uduakukpong.netlify.app/)
+[LinkedIn](https://www.linkedin.com/in/ukpong-uduak/) · [Portfolio](https://uduakukpong.com/)
