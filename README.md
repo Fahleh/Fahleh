@@ -11,7 +11,7 @@ A project management dashboard built solo on Next.js 16 and Supabase (Postgres, 
 - CI gates every PR to `main` and `develop` on the full test suite (361/361 passing), device-split Lighthouse performance budgets, and a live authenticated CSP check.
 - Nine tagged releases (v1.0.0 through v1.3.0), with every non-obvious decision documented in `docs/decisions.md`.
 
-## Stack
+## Core stack
 
 **Frontend:** React, Next.js, TypeScript, Redux Toolkit, TanStack Query, Tailwind CSS
 **Backend / Data:** NestJS, PostgreSQL, Supabase, Redis
